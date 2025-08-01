@@ -1,0 +1,15 @@
+# Ignore virtual env
+lde/
+venv/
+*.pyd
+*.dll
+
+# Ignore large data
+*.npy
+*.csv
+
+# Ignore model weights, cache
+*.h5
+*.joblib
+*.pkl
+__pycache__/
